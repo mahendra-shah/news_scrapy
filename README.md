@@ -1,1 +1,4 @@
 ## Scrapy
+```
+scrapy crawl news
+```
