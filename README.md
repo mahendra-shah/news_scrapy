@@ -1,4 +1,4 @@
 ## Scrapy
-```
-scrapy crawl news
-```
+
+$ scrapy crawl news
+
