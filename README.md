@@ -12,12 +12,16 @@ This project is built using Python and the Scrapy framework to scrape news websi
 
 
 ## Project Structure
-- `utils.py`: Contains the keyword extraction tool.
-- `news_scrapy/`
-  - `monitor_news.py`: Script for monitoring the news scraping process.
-  - `settings.py`: Configuration file for the Scrapy project.
-  - `pipelines.py`: Contains the pipeline for storing extracted keywords in a database.
-  - `items.py`: Defines the Item class for storing news articles data.
+``` r
+    ├── spiders                           # Contains spiders
+        ├── news.py                # Contains main logic of extracting data
+    ├── LICENSE 
+    ├── README.md                       # Documentation
+    ├── items.py                            
+    ├── middlewares.py                   
+    ├── pipelines.py                    
+    ├── settings.py                   # Configuration file for the Scrapy project.
+```
 
 ## Installation
 1. Clone the repository:
