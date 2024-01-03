@@ -19,7 +19,8 @@ This project is built using Python and the Scrapy framework to scrape news websi
     ├── README.md                       # Documentation
     ├── items.py                            
     ├── middlewares.py                   
-    ├── pipelines.py                    
+    ├── pipelines.py
+    ├── requirements.txt                    
     ├── settings.py                   # Configuration file for the Scrapy project.
 ```
 
